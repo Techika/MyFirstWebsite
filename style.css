@@ -91,6 +91,7 @@
     }
     .intro  {
         font-size: 1.2em;
+        line-height: 150%;
     }
     .intro  H1{
         font-size: 3em;
@@ -108,8 +109,8 @@
     
     /* Middle framed content */
     .content, .navcontent {
-        margin-right:15%;
-        margin-left:15%;
+        padding-right:10%;
+        padding-left:10%;
     }
     /* All things centered */
     #Separator, #Wiki H1 {

@@ -26,11 +26,11 @@
         overflow: hidden;
         vertical-align: middle;
     }
-        .navcontent {
+        /*.navcontent {
 
-        }
+        }*/
         #Navicontainer {
-            display: inline-block;
+            display: block;
            /* height: 50px;*/
             width: 10%;
             vertical-align: middle;
@@ -46,11 +46,11 @@
             width: 60px;*/
             /*padding-top: 25%; */
             height: 40px;
-            display: inline-block;
+            display: block;
             vertical-align: middle;
         }
         #Navbuttons {    
-            display:inline-block;
+            display:block;
             /*height: 100%;*/
             vertical-align: middle;
             float: right;            

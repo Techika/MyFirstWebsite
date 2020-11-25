@@ -1,0 +1,126 @@
+/*-------------------------------*/  
+/* DEFAULTS*/
+/*-------------------------------*/  
+    body {
+        margin: 0px;
+        background-image: url("assets/topography.png");
+    }
+    body, pre {
+        font-family: consolas;
+        white-space: normal;
+        font-stretch: expanded;
+    }
+    body H1,body H2, pre H1, pre H2 {
+        font-family: courier;
+        white-space: normal;
+        font-stretch: expanded;
+        
+    }  
+
+/*-------------------------------*/ 
+/* MAIN BLOCKS */
+/*-------------------------------*/  
+
+    .navbar {
+        background-color: #333333;
+        overflow: hidden;
+        vertical-align: middle;
+    }
+        .navcontent {
+
+        }
+        #Navicontainer {
+            display: inline-block;
+           /* height: 50px;*/
+            width: 10%;
+            vertical-align: middle;
+            float: left;
+            /*padding-top: 14px;*/
+            /*padding: 14px 16px;
+            margin-top: 20px;
+            margin-bottom: 20px;*/
+            padding-top: 10px;
+        }
+        #Navicon {
+            /*height: 60px;
+            width: 60px;*/
+            /*padding-top: 25%; */
+            height: 40px;
+            display: inline-block;
+            vertical-align: middle;
+        }
+        #Navbuttons {    
+            display:inline-block;
+            /*height: 100%;*/
+            vertical-align: middle;
+            float: right;            
+        }
+        #Navbuttons a {
+            padding: 1px 16px;
+            margin: 0px;
+            float: right;
+            
+            text-align: center;
+            font-weight: 530;
+            /*margin: 0;
+            width: 50%;*/
+            
+            text-decoration: underline;
+            /*font-size: 17px;*/
+            /*font-weight: 550;*/
+        }
+        #Navbuttons a li {
+            list-style: none;
+            vertical-align: center;
+        }
+
+                /* Change the color of links on hover */
+                #Navbuttons a:hover {
+                    background-color: #ddd;
+                    color: black;
+                }
+                
+                /* Add a color to the active/current link */
+                #Navbuttons a.active {
+                    background-color: #4CAF50;
+                    color: white;
+                }
+    .content {
+        margin-top: 100px;
+        margin-bottom: 50px;
+    }
+    .intro  {
+        font-size: 1.2em;
+    }
+    .intro  H1{
+        font-size: 3em;
+    }
+    #Wiki H1{
+        font-size: 2.3em;
+    }
+    #Wiki H1, #Wiki H2 {
+        font-weight: 900;
+    }
+/*-------------------------------*/  
+/* POSITIONING GROUPS */
+/*-------------------------------*/  
+    /* TOP and Bottom */
+    
+    /* Middle framed content */
+    .content, .navcontent {
+        margin-right:15%;
+        margin-left:15%;
+    }
+    /* All things centered */
+    #Separator, #Wiki H1 {
+        text-align: center;
+    }
+/*-------------------------------*/  
+/* COLOR MANAGEMENT GROUPS */
+/*-------------------------------*/  
+    /* All things PINK */
+    .navbar a, .intro H2 {
+        color: #ff0099;
+    }
+
+
